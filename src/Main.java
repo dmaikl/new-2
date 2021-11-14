@@ -17,6 +17,7 @@ public class Main {
         int chislo = scanner.nextInt();
         if (chislo==ZagadannoeChislo) {
             System.out.println("Поздавляю, Вы угадали!");
+
             break;
             } else if (chislo<ZagadannoeChislo) {
             System.out.println("Ваше число меньше загаданного");
